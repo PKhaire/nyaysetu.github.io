@@ -33,7 +33,9 @@
         form button:hover { background: #0c2461; }
 
         footer { background: #0a3d62; color: #fff; text-align: center; padding: 30px 20px; margin-top: 40px; }
-        footer p { font-size: 0.9em; }
+        footer p { font-size: 0.9em; margin-bottom: 8px; }
+        footer a { color: #fff; text-decoration: underline; margin: 0 8px; }
+        footer a:hover { text-decoration: none; }
     </style>
 </head>
 <body>
@@ -121,6 +123,10 @@
 
     <footer>
         <p>© 2025 NyaySetu – Bridge to Justice | Empowering Legal Transparency</p>
+        <p>
+            <a href="https://www.nyaysetu.in/privacy-policy" target="_blank">Privacy Policy</a> |
+            <a href="https://www.nyaysetu.in/data-deletion" target="_blank">Data Deletion Policy</a>
+        </p>
     </footer>
 
     <script>
@@ -135,16 +141,3 @@
         document.getElementById('judges').innerText = stats.judges;
         document.getElementById('highCourt').innerText = stats.high;
         document.getElementById('sc').innerText = stats.sc;
-        document.getElementById('fiveYears').innerText = stats.fiveYears;
-
-        document.getElementById('verifyForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            document.getElementById('verifyMsg').innerText = 'Verification submitted. Our team will contact you soon.';
-        });
-        document.getElementById('contactForm').addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Your message has been sent successfully. Thank you for contacting NyaySetu.');
-        });
-    </script>
-</body>
-</html>
