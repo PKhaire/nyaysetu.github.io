@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ask an Advocate | Prepare Your Question with NyaySetu</title>
+  <meta name="description" content="Prepare a short legal question and send it to NyaySetu intake for possible consultation coordination with an independent advocate.">
+  <meta name="theme-color" content="#0b1f3a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Ask an Advocate | NyaySetu">
+  <meta property="og:description" content="Prepare a focused question before requesting consultation coordination.">
+  <meta property="og:url" content="https://nyaysetu.in/ask-an-advocate.html">
+  <meta property="og:image" content="https://nyaysetu.in/preview.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://nyaysetu.in/ask-an-advocate.html">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="NyaySetu home"><span class="brand-mark">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu"><span></span></button>
+      <div class="nav-links" id="site-menu">
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="index.html#issues">Legal issues</a>
+        <a href="index.html#consultation">Consultation</a>
+        <a href="index.html#faq">FAQ</a>
+        <a class="button button-primary button-small" href="#question-form">Prepare a question</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="legal-hero question-hero">
+      <div class="container">
+        <span class="eyebrow">Consultation intake</span>
+        <h1>Ask an Advocate</h1>
+        <p>Prepare a focused question for NyaySetu intake. We may coordinate an independent advocate after checking availability, the requested scope and potential conflicts.</p>
+        <div class="service-boundary" role="note"><strong>This is not a live advocate chat.</strong> Sending a question does not create a booking, require payment or automatically form an advocate-client relationship.</div>
+      </div>
+    </section>
+
+    <section class="section question-section">
+      <div class="container question-layout">
+        <div>
+          <span class="eyebrow">Before you write</span>
+          <h2>Share a short summary—not your whole case file</h2>
+          <p class="question-lead">A category, current stage and clear question are enough for initial intake. An advocate may request relevant details later through an appropriate channel.</p>
+          <div class="preparation-list">
+            <article><span>1</span><div><h3>Name the issue</h3><p>Choose the closest category and describe what decision or next step you need help understanding.</p></div></article>
+            <article><span>2</span><div><h3>Mention real urgency</h3><p>State a known court, police or statutory date. Do not guess. Intake does not calculate or pause deadlines.</p></div></article>
+            <article><span>3</span><div><h3>Protect sensitive information</h3><p>Do not include OTPs, UPI PINs, passwords, full card data, Aadhaar numbers or unnecessary identity documents.</p></div></article>
+          </div>
+          <div class="safety-banner compact-safety" role="note">
+            <div class="safety-icon">!</div>
+            <div><h3>Danger, arrest or a deadline today?</h3><p>Do not wait for this intake. Contact emergency services, the appropriate authority or a qualified local advocate immediately. In India, call <a href="tel:112">112</a> for emergency assistance.</p></div>
+          </div>
+        </div>
+
+        <form class="question-form" id="question-form" data-advocate-question-form>
+          <div class="form-heading"><span class="form-step">Private-by-design intake</span><h2>Prepare your question</h2><p>This static page does not save or transmit the form. Selecting the button creates a message in WhatsApp for you to review before sending.</p></div>
+
+          <div class="form-field">
+            <label for="question-category">Legal category</label>
+            <select id="question-category" name="category" required>
+              <option value="">Select the closest category</option>
+              <option>Family and matrimonial</option>
+              <option>Property and housing</option>
+              <option>Employment and workplace</option>
+              <option>Consumer complaint</option>
+              <option>Money recovery and debt</option>
+              <option>Criminal complaint or police matter</option>
+              <option>Business and contracts</option>
+              <option>Cybercrime and online fraud</option>
+              <option>Other legal issue</option>
+            </select>
+          </div>
+
+          <div class="form-grid-two">
+            <div class="form-field">
+              <label for="question-language">Preferred language</label>
+              <select id="question-language" name="language" required>
+                <option>English</option>
+                <option>Hindi</option>
+                <option>Marathi</option>
+              </select>
+            </div>
+            <div class="form-field">
+              <label for="question-urgency">Known timing</label>
+              <select id="question-urgency" name="urgency" required>
+                <option value="No known immediate deadline">No known immediate deadline</option>
+                <option value="A date is within 7 days">A date is within 7 days</option>
+                <option value="A date is within 30 days">A date is within 30 days</option>
+                <option value="I am unsure and need to explain">I am unsure</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="question-summary">Question summary</label>
+            <textarea id="question-summary" name="summary" rows="7" maxlength="600" required aria-describedby="summary-help summary-count" placeholder="Example: My employer has not paid two months of salary. I have an offer letter and bank statements. What should I preserve and what is the usual first formal step?"></textarea>
+            <div class="field-meta"><span id="summary-help">Do not paste evidence or identification numbers.</span><span id="summary-count" aria-live="polite">0/600</span></div>
+          </div>
+
+          <label class="consent-check"><input type="checkbox" name="understanding" required><span>I understand that this goes to NyaySetu intake through WhatsApp, not directly to a guaranteed advocate; it is not emergency assistance and no relationship, booking or outcome is promised.</span></label>
+
+          <button class="button button-primary form-submit" type="submit">Review and continue in WhatsApp</button>
+          <p class="form-privacy">WhatsApp is a Meta service. Your message is sent only after you review and press Send in WhatsApp. See the <a href="privacy-policy.html">Privacy Policy</a> and <a href="legal-disclaimer.html">Legal Disclaimer</a>.</p>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head"><span class="eyebrow">What happens next</span><h2>Intake first. A confirmed scope before payment.</h2><p>NyaySetu reviews the request and may offer consultation coordination. Availability and professional acceptance are not guaranteed.</p></div>
+        <div class="steps three-steps">
+          <article class="step-card"><h3>Intake review</h3><p>We check the category, urgency and whether another service or immediate help is more appropriate.</p></article>
+          <article class="step-card"><h3>Proposed consultation</h3><p>Where available, you receive the professional, scope, schedule and price before choosing whether to proceed.</p></article>
+          <article class="step-card"><h3>Your decision</h3><p>A standard ₹499 fee applies only if you choose and confirm an offered booking, unless another amount is clearly shown first.</p></article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-grid container">
+      <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a><p>General legal information and consultation coordination. NyaySetu is not a law firm and does not guarantee an advocate, response time or legal outcome.</p></div>
+      <div class="footer-col"><h3>Explore</h3><a href="index.html">Home</a><a href="index.html#issues">Legal issues</a><a href="index.html#consultation">Consultation</a><a href="index.html#faq">FAQ</a></div>
+      <div class="footer-col"><h3>Policies</h3><a href="privacy-policy.html">Privacy Policy</a><a href="terms-and-conditions.html">Terms of Service</a><a href="refund-policy.html">Refund Policy</a><a href="cancellation-policy.html">Cancellation Policy</a><a href="legal-disclaimer.html">Legal Disclaimer</a></div>
+      <div class="footer-col"><h3>Contact</h3><a href="mailto:legalhelp@nyaysetu.in">legalhelp@nyaysetu.in</a><a href="tel:+917020030080">+91 70200 30080</a><span>Pimpri-Chinchwad, Pune, Maharashtra 412105, India</span></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span data-year>2026</span> NyaySetu</span><span>General information only • Not emergency assistance • No outcome guarantee</span></div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>

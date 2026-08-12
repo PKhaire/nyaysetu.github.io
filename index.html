@@ -1,301 +1,299 @@
-<!DOCTYPE html>
-<html lang="en-IN">
+<!doctype html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>NyaySetu | The Bridge to Justice</title>
-
-<link rel="canonical" href="https://nyaysetu.in/">
-<meta name="robots" content="index, follow">
-
-<meta name="description" content="NyaySetu is a structured legal-technology platform offering professional legal consultation scheduling via secure WhatsApp integration. Secure payments powered by Razorpay.">
-
-<!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
-
-<!-- Open Graph -->
-<meta property="og:title" content="NyaySetu | The Bridge to Justice">
-<meta property="og:description" content="Structured legal consultation via secure WhatsApp platform powered by Razorpay.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://nyaysetu.in">
-<meta property="og:image" content="https://nyaysetu.in/preview.png">
-<meta property="og:locale" content="en_IN">
-
-<!-- Twitter -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="NyaySetu | The Bridge to Justice">
-<meta name="twitter:description" content="Professional legal consultation scheduling via secure WhatsApp integration.">
-<meta name="twitter:image" content="https://nyaysetu.in/preview.png">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
-<style>
-*{margin:0;padding:0;box-sizing:border-box;}
-body{
-    font-family:'Poppins', sans-serif;
-    background:#f4f7fb;
-    color:#1f2937;
-    line-height:1.7;
-}
-
-/* HERO */
-header{
-    background:linear-gradient(135deg,#0b1220,#1e3a8a);
-    color:white;
-    text-align:center;
-    padding:80px 20px 70px;
-}
-header h1{
-    font-size:64px;
-    font-weight:800;
-}
-header p{
-    margin-top:14px;
-    font-size:22px;
-    color:#e2e8f0;
-}
-header .subtext{
-    margin-top:12px;
-    font-size:16px;
-    color:#cbd5e1;
-}
-
-/* SECTIONS */
-section{
-    max-width:1100px;
-    margin:auto;
-    padding:80px 20px;
-}
-.card{
-    background:white;
-    padding:45px;
-    border-radius:16px;
-    box-shadow:0 15px 40px rgba(0,0,0,0.06);
-    margin-bottom:50px;
-}
-h2{
-    font-size:26px;
-    margin-bottom:20px;
-    font-weight:700;
-}
-
-/* PROFESSIONAL LIST STYLE */
-ul{
-    list-style:none;
-    padding-left:0;
-}
-ul li{
-    position:relative;
-    padding-left:28px;
-    margin-bottom:12px;
-}
-ul li::before{
-    content:"✔";
-    position:absolute;
-    left:0;
-    color:#1e3a8a;
-    font-weight:700;
-}
-
-.price{
-    font-size:36px;
-    font-weight:700;
-    color:#1e3a8a;
-}
-
-/* FAQ */
-details{
-    background:#f9fafb;
-    padding:16px;
-    margin-bottom:14px;
-    border-radius:8px;
-    border:1px solid #e5e7eb;
-}
-summary{font-weight:600;cursor:pointer;}
-details p{margin-top:10px;font-size:14px;color:#475569;}
-
-/* FOOTER */
-footer{
-    background:#0b1220;
-    color:#cbd5e1;
-    text-align:center;
-    padding:45px 20px;
-    font-size:14px;
-}
-footer a{
-    color:#cbd5e1;
-    text-decoration:none;
-    margin:0 8px;
-}
-footer a:hover{color:white;}
-.footer-note{
-    margin-top:15px;
-    font-size:13px;
-    color:#94a3b8;
-}
-
-/* FLOATING WHATSAPP */
-.float-wa{
-    position:fixed;
-    bottom:30px;
-    right:30px;
-    background:#25D366;
-    color:white;
-    padding:16px 28px;
-    border-radius:50px;
-    font-size:15px;
-    font-weight:600;
-    text-decoration:none;
-    display:flex;
-    align-items:center;
-    box-shadow:0 10px 25px rgba(0,0,0,0.18);
-    animation:pulse 2.5s infinite;
-    transition:0.25s ease;
-}
-.float-wa:hover{
-    background:#1ebe5d;
-    transform:translateY(-4px);
-}
-.float-wa svg{margin-right:10px;}
-
-@keyframes pulse{
-    0%{box-shadow:0 0 0 0 rgba(37,211,102,0.5);}
-    70%{box-shadow:0 0 0 15px rgba(37,211,102,0);}
-    100%{box-shadow:0 0 0 0 rgba(37,211,102,0);}
-}
-</style>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "name": "NyaySetu",
-  "url": "https://nyaysetu.in/",
-  "logo": "https://nyaysetu.in/preview.png",
-  "description": "Structured legal consultation scheduling platform with WhatsApp integration.",
-  "areaServed": {
-    "@type": "Country",
-    "name": "India"
-  },
-  "contactPoint": {
-    "@type": "ContactPoint",
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NyaySetu | Understand Your Next Legal Step</title>
+  <meta name="description" content="Get guided legal information, document checklists and consultation coordination on WhatsApp in English, Hindi and Marathi.">
+  <meta name="theme-color" content="#0b1f3a">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NyaySetu — The Bridge to Justice">
+  <meta property="og:description" content="Understand your next legal step through a simple, guided WhatsApp journey.">
+  <meta property="og:url" content="https://nyaysetu.in/">
+  <meta property="og:image" content="https://nyaysetu.in/preview.png">
+  <meta property="og:locale" content="en_IN">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://nyaysetu.in/">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NyaySetu",
+    "legalName": "NyaySetu",
+    "identifier": "UDYAM-MH-26-0991801",
+    "url": "https://nyaysetu.in/",
+    "logo": "https://nyaysetu.in/apple-touch-icon.png",
+    "description": "A legal-information and consultation-coordination platform serving users through guided digital journeys.",
+    "areaServed": "IN",
+    "email": "legalhelp@nyaysetu.in",
     "telephone": "+91-7020030080",
-    "contactType": "Customer Support",
-    "areaServed": "IN"
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "E-306, Spring Valley, Sr. No. 134, near Balaji Temple, Pune–Alandi Road, Wadmukhwadi",
+      "addressLocality": "Pimpri-Chinchwad",
+      "addressRegion": "Maharashtra",
+      "postalCode": "412105",
+      "addressCountry": "IN"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Prashant Keshav Khaire"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "telephone": "+91-7020030080",
+      "email": "legalhelp@nyaysetu.in",
+      "availableLanguage": ["English", "Hindi", "Marathi"]
+    }
   }
-}
-</script>
-
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Is NyaySetu a law firm?","acceptedAnswer":{"@type":"Answer","text":"No. NyaySetu is a legal-information and consultation-coordination platform. General automated information is not a substitute for advice from a qualified advocate."}},
+      {"@type":"Question","name":"Do I have to pay to use the guided information?","acceptedAnswer":{"@type":"Answer","text":"No payment is required to begin the guided information flow. A fee applies only when a user chooses and confirms an offered consultation booking."}},
+      {"@type":"Question","name":"Does NyaySetu guarantee a legal result?","acceptedAnswer":{"@type":"Answer","text":"No. Legal outcomes depend on facts, evidence, procedure, applicable law and decisions made by courts or authorities."}},
+      {"@type":"Question","name":"Which languages are supported?","acceptedAnswer":{"@type":"Answer","text":"The guided experience supports English, Hindi and Marathi. Professional availability in a preferred language is confirmed during booking."}}
+    ]
+  }
+  </script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="NyaySetu home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19h16M6 17V9m12 8V9M4 9h16L12 4 4 9Zm5 8v-5m6 5v-5"/></svg>
+        </span>
+        <span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span>
+      </a>
+      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu"><span></span></button>
+      <div class="nav-links" id="site-menu">
+        <a href="#how-it-works">How it works</a>
+        <a href="#issues">Legal issues</a>
+        <a href="ask-an-advocate.html">Ask an advocate</a>
+        <a href="#faq">FAQ</a>
+        <a class="button button-primary button-small" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20help%20understanding%20my%20legal%20next%20step." target="_blank" rel="noopener">Start on WhatsApp</a>
+      </div>
+    </nav>
+  </header>
 
-<header>
-<h1>NyaySetu</h1>
-<p>The Bridge to Justice</p>
-<div class="subtext">Structured Legal Consultation via Secure WhatsApp Platform</div>
-</header>
+  <main id="main">
+    <section class="hero">
+      <div class="hero-grid container">
+        <div>
+          <span class="eyebrow">Free to start • Works through WhatsApp</span>
+          <h1>Understand your next legal step. On WhatsApp.</h1>
+          <p class="hero-lead">Not sure whom to ask or which documents you need? Tell NyaySetu the type of problem and receive a simple starting checklist. Choose a paid consultation only if you want one.</p>
+          <div class="language-options" aria-label="Choose a language to begin">
+            <span>Begin in:</span>
+            <a href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20please%20continue%20in%20English." target="_blank" rel="noopener">English</a>
+            <a href="https://wa.me/917020030080?text=नमस्ते%20NyaySetu%2C%20कृपया%20हिंदी%20में%20जारी%20रखें।" target="_blank" rel="noopener" lang="hi">हिन्दी</a>
+            <a href="https://wa.me/917020030080?text=नमस्कार%20NyaySetu%2C%20कृपया%20मराठीत%20पुढे%20चला।" target="_blank" rel="noopener" lang="mr">मराठी</a>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20please%20help%20me%20understand%20my%20legal%20issue." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.6 9.6 0 0 1-4-.9L3 21l1.7-4.6A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.7 8.4c.3 2.7 2.3 4.7 5 5"/></svg>
+              Get free starting guidance
+            </a>
+            <a class="button button-secondary" href="#how-it-works">See how it works</a>
+          </div>
+          <p class="consent-note">This opens WhatsApp, a Meta service. Share only the information needed for your request. Read our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+          <ul class="reassurance" aria-label="Service assurances">
+            <li>Guided information is free to start</li>
+            <li>Pay only if you book a consultation</li>
+            <li>Payments processed by Razorpay</li>
+          </ul>
+        </div>
+        <div class="chat-shell" role="img" aria-label="Example NyaySetu WhatsApp conversation showing a user choosing a legal issue and receiving a safety reminder">
+          <div class="chat-card">
+            <div class="chat-head">
+              <div class="chat-avatar">N</div>
+              <div><strong>NyaySetu</strong><small>Guided legal information</small></div>
+            </div>
+            <div class="chat-body">
+              <div class="bubble user">Hi, I need help with a legal issue.</div>
+              <div class="bubble">Welcome to NyaySetu. Choose the area that best matches your concern.
+                <div class="quick-options"><span>Property & housing</span><span>Family matters</span><span>Consumer complaint</span></div>
+              </div>
+              <div class="bubble user">Property & housing</div>
+              <div class="bubble">I’ll ask a few general questions and share a checklist. Please avoid sending highly sensitive documents unless specifically requested.</div>
+            </div>
+            <div class="chat-foot">Example only — the actual flow adapts to your selections.</div>
+          </div>
+          <div class="language-chip">EN • हिन्दी • मराठी</div>
+        </div>
+      </div>
+    </section>
 
-<section>
+    <div class="trust-strip" aria-label="NyaySetu service highlights">
+      <div class="trust-grid container">
+        <div class="trust-item"><strong>Free to begin</strong><span>Explore the guided information first</span></div>
+        <div class="trust-item"><strong>No separate NyaySetu app</strong><span>Use your existing WhatsApp</span></div>
+        <div class="trust-item"><strong>₹499 consultation</strong><span>Only if you choose and confirm a booking</span></div>
+        <div class="trust-item"><strong>Human support</strong><span>Ask for help when the guided flow is not enough</span></div>
+      </div>
+    </div>
 
-<div class="card">
-<h2>About NyaySetu</h2>
-<p>NyaySetu is a structured legal-technology platform designed to simplify access to professional legal consultation through a secure and compliant WhatsApp-based ecosystem.</p>
-<p>The platform integrates an intelligent Legal Chatbot that provides preliminary legal process guidance before facilitating consultation scheduling with independent legal professionals.</p>
-<p>NyaySetu ensures structured workflows, confidential communication standards, and secure digital payment processing powered by Razorpay.</p>
-</div>
+    <section class="section" id="how-it-works">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Simple by design</span>
+          <h2>From uncertainty to a clearer next step</h2>
+          <p>NyaySetu helps you organise the issue before you decide whether a professional consultation is useful.</p>
+        </div>
+        <div class="steps">
+          <article class="step-card"><h3>Choose your issue</h3><p>Open WhatsApp, select your language and pick the closest legal category.</p></article>
+          <article class="step-card"><h3>Tell us the basics</h3><p>Answer simple questions. Share only the facts needed for a useful starting point.</p></article>
+          <article class="step-card"><h3>Review useful information</h3><p>Receive a general checklist, practical actions and important safety or urgency notices.</p></article>
+          <article class="step-card"><h3>Choose what happens next</h3><p>Continue with the information or request a paid consultation, subject to availability.</p></article>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Trust & Compliance</h2>
-<ul>
-<li>Secure digital payments via Razorpay</li>
-<li>Encrypted communication standards</li>
-<li>No storage of card or sensitive financial information</li>
-<li>Transparent refund framework</li>
-<li>Independent legal professional consultations</li>
-<li>No government affiliation</li>
-</ul>
-</div>
+    <section class="section section-soft" id="issues">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Common legal concerns</span>
+          <h2>Start with the issue you recognise</h2>
+          <p>Tap a category to begin with it already selected. If none fits, choose “Other” in WhatsApp.</p>
+        </div>
+        <div class="categories">
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20property%20or%20housing%20issue." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="m3 11 9-7 9 7"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></svg></div><h3>Property & housing</h3><p>Ownership, rent, possession, documents and property-related disputes.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20family%20matter." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.3"/><path d="M3.5 20c.3-4 2-6 5.5-6s5.2 2 5.5 6M14 15c3.7-.7 6.1 1 6.5 4"/></svg></div><h3>Family matters</h3><p>Marriage, separation, maintenance, custody and other family concerns.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20consumer%20complaint." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3m-5 5 1.5 1.5L15 12"/></svg></div><h3>Consumer complaints</h3><p>Defective products, poor services, refunds and unfair practices.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20business%20or%20contract%20issue." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V4h6v3m-12 6h18m-11 0v2h4v-2"/></svg></div><h3>Business & contracts</h3><p>Agreements, notices, payment disputes and business documentation.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20job%20or%20employment%20issue." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></div><h3>Job & employment</h3><p>Salary, termination, workplace issues and employment documents.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20banking%20or%20finance%20issue." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 10h18M5 10v8m4-8v8m6-8v8m4-8v8M3 20h18M12 3l9 5H3l9-5Z"/></svg></div><h3>Banking & finance</h3><p>Loan, recovery, transaction and financial-service concerns.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20an%20accident%20matter." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 16 7 9h10l2 7M3 16h18v4H3z"/><circle cx="7" cy="20" r="1.5"/><circle cx="17" cy="20" r="1.5"/><path d="M9 12h6"/></svg></div><h3>Accident matters</h3><p>Immediate documentation, insurance and compensation-related information.</p><span class="category-action">Start this topic</span></a>
+          <a class="category-card" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20guidance%20about%20a%20criminal-law%20concern." target="_blank" rel="noopener"><div class="icon-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3 5 6v5c0 4.6 2.8 8.1 7 10 4.2-1.9 7-5.4 7-10V6l-7-3Z"/><path d="M12 8v5m0 3h.01"/></svg></div><h3>Criminal-law concerns</h3><p>General information about complaints, notices and urgent professional assistance.</p><span class="category-action">Start this topic</span></a>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>How It Works</h2>
-<ul>
-<li>Initiate conversation on WhatsApp</li>
-<li>Interact with the Legal Chatbot</li>
-<li>Receive secure payment link</li>
-<li>Confirm consultation after payment</li>
-<li>Connect with a legal professional</li>
-</ul>
-</div>
+    <section class="section">
+      <div class="value-grid container">
+        <div>
+          <span class="eyebrow">Useful before you pay</span>
+          <h2>Better questions lead to a more useful consultation</h2>
+          <p class="hero-lead">The guided flow helps you prepare. It does not replace advice from an advocate who has reviewed your complete facts and documents.</p>
+          <ul class="check-list">
+            <li>Common document checklist for the selected issue</li>
+            <li>Practical “what to do now” steps</li>
+            <li>Warnings where delay or personal safety may matter</li>
+            <li>A structured summary to make the next conversation clearer</li>
+          </ul>
+        </div>
+        <div class="information-card">
+          <h3>Your guided preparation may include</h3>
+          <div class="info-row"><div class="icon-box">1</div><div><strong>Issue summary</strong><br><span>Key facts organised in a clearer sequence.</span></div></div>
+          <div class="info-row"><div class="icon-box">2</div><div><strong>Document checklist</strong><br><span>A reminder of commonly relevant records.</span></div></div>
+          <div class="info-row"><div class="icon-box">3</div><div><strong>Action options</strong><br><span>General next steps and official channels to consider.</span></div></div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Consultation Fee</h2>
-<p class="price">₹499 per session</p>
-<p>All transactions are securely processed via Razorpay’s encrypted infrastructure.</p>
-</div>
+    <section class="section section-soft" id="consultation">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Optional consultation</span>
+          <h2>Know the fee before you pay.</h2>
+          <p>Book only after reviewing the slot, service scope and applicable terms shown in the WhatsApp flow.</p>
+        </div>
+        <div class="pricing-wrap">
+          <div class="price-card">
+            <h3>Professional consultation</h3>
+            <div class="price">₹499</div>
+            <div class="price-note">consultation fee for a confirmed booking, unless a different amount is clearly shown before payment</div>
+            <ul class="check-list">
+              <li>Slot and service scope shown before payment</li>
+              <li>Secure payment through Razorpay</li>
+              <li>Booking confirmation and support trail</li>
+            </ul>
+            <a class="button button-primary" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20would%20like%20to%20check%20consultation%20availability." target="_blank" rel="noopener">Check a suitable slot</a>
+          </div>
+          <div class="price-explainer">
+            <h3>Before completing payment</h3>
+            <p>Review the following information carefully. A payment does not guarantee a particular legal result.</p>
+            <dl>
+              <div><dt>Professional</dt><dd>The available advocate or professional details, where applicable.</dd></div>
+              <div><dt>Scope</dt><dd>What the scheduled consultation is intended to cover.</dd></div>
+              <div><dt>Schedule</dt><dd>The proposed date, time and communication method.</dd></div>
+              <div><dt>Policies</dt><dd>Cancellation, rescheduling and refund conditions before you agree.</dd></div>
+            </dl>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Refund Policy</h2>
-<p>Refunds shall be processed only in cases where NyaySetu is unable to facilitate the confirmed consultation within the scheduled timeframe or within 24 hours of the scheduled time due to internal operational reasons.</p>
-<p>Refund eligibility does not extend to user-initiated cancellations or non-attendance after confirmation.</p>
-</div>
+    <section class="section">
+      <div class="container">
+        <div class="safety-banner" role="note">
+          <div class="safety-icon">!</div>
+          <div><h3>Immediate danger or urgent legal deadline?</h3><p>NyaySetu is not an emergency service. Contact local emergency services or the appropriate authority immediately. In India, dial <a href="tel:112">112</a> for emergency assistance. For an arrest, court date, limitation deadline or immediate safety risk, seek a qualified advocate without waiting for a bot response.</p></div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Frequently Asked Questions</h2>
-<details>
-<summary>Is NyaySetu a law firm?</summary>
-<p>NyaySetu is an independent legal-technology platform that facilitates consultation scheduling and does not operate as a law firm.</p>
-</details>
-<details>
-<summary>Are payments secure?</summary>
-<p>Yes. Payments are securely processed via Razorpay. NyaySetu does not store card or banking information.</p>
-</details>
-<details>
-<summary>Is communication confidential?</summary>
-<p>Consultations follow confidentiality standards and secure communication practices.</p>
-</details>
-</div>
+    <section class="section section-dark">
+      <div class="container">
+        <div class="section-head"><span class="eyebrow">Trust through clarity</span><h2>Designed to minimise unnecessary data</h2><p>Legal situations can be sensitive. Our flow tells you what not to share and separates general information from professional consultation.</p></div>
+        <div class="privacy-grid">
+          <article class="feature-card"><div class="icon-box">◉</div><h3>Purpose-led collection</h3><p>We request information to operate the selected flow, coordinate bookings, support payments and provide requested support.</p></article>
+          <article class="feature-card"><div class="icon-box">◇</div><h3>Payment separation</h3><p>Razorpay processes payment credentials. NyaySetu does not store your complete card, UPI PIN or banking password.</p></article>
+          <article class="feature-card"><div class="icon-box">↗</div><h3>Your choices</h3><p>You may stop the conversation, ask questions about data use or request deletion, subject to legal and financial record obligations.</p></article>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Legal Disclaimer</h2>
-<p>NyaySetu is an independent consultation scheduling platform and does not provide direct legal representation. Legal advice is delivered by independent legal professionals. Users are advised to independently evaluate information before taking legal action.</p>
-</div>
+    <section class="section" id="faq">
+      <div class="container">
+        <div class="section-head"><span class="eyebrow">Frequently asked questions</span><h2>Know what NyaySetu is — and is not</h2></div>
+        <div class="faq">
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-1">Is NyaySetu a law firm?</button><div class="faq-answer" id="faq-1"><p>No. NyaySetu is a legal-information and consultation-coordination platform. General automated information is not a substitute for advice from a qualified advocate who has reviewed your complete circumstances.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-2">Do I have to pay to use the guided information?</button><div class="faq-answer" id="faq-2"><p>No payment is required to begin the guided information flow. The ₹499 fee applies only when you choose and confirm an offered consultation booking, unless a different fee is clearly presented before payment.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-3">Does NyaySetu guarantee a legal result?</button><div class="faq-answer" id="faq-3"><p>No. Legal outcomes depend on facts, evidence, procedure, applicable law and decisions made by courts or authorities. Neither information nor consultation can guarantee an outcome.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-4">What should I avoid sharing on WhatsApp?</button><div class="faq-answer" id="faq-4"><p>Do not send passwords, OTPs, UPI PINs, complete payment-card data or unnecessary identity documents. Avoid intimate or highly sensitive evidence unless a verified professional specifically requests it through an appropriate channel.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-5">Can I cancel or request a refund?</button><div class="faq-answer" id="faq-5"><p>Eligibility depends on the timing and reason. Review our <a href="cancellation-policy.html">Cancellation Policy</a> and <a href="refund-policy.html">Refund Policy</a>, or contact support before the scheduled consultation.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-7">Will a person reply immediately?</button><div class="faq-answer" id="faq-7"><p>The automated guided flow can start immediately. Human support and professional consultations depend on working availability and a confirmed slot. Do not wait for NyaySetu in an emergency or where a legal deadline is approaching.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-8">What happens after I pay?</button><div class="faq-answer" id="faq-8"><p>NyaySetu verifies the payment status and sends a booking confirmation using your registered contact details. If payment succeeds but you do not receive confirmation, contact support with the payment reference—never share an OTP, UPI PIN or full card number.</p></div></div>
+          <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-6">Which languages are supported?</button><div class="faq-answer" id="faq-6"><p>The guided experience supports English, Hindi and Marathi. Availability of a professional in a preferred language is confirmed during booking.</p></div></div>
+        </div>
+      </div>
+    </section>
 
-<div class="card">
-<h2>Contact Information</h2>
-<p>Email: legalhelp@nyaysetu.in</p>
-<p>WhatsApp: +91 7020030080</p>
-<p>Operating Jurisdiction: India</p>
-<p>Registered Operational Base: Mumbai</p>
-</div>
+    <section class="section">
+      <div class="container">
+        <div class="final-cta"><h2>Start with clarity, not confusion.</h2><p>Tell NyaySetu the category of your concern and receive a guided starting point. You remain in control of whether to proceed.</p><a class="button button-primary" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20want%20to%20start%20the%20guided%20legal%20information%20flow." target="_blank" rel="noopener">Continue on WhatsApp</a></div>
+      </div>
+    </section>
+  </main>
 
-</section>
+  <footer class="site-footer">
+    <div class="footer-grid container">
+      <div class="footer-brand">
+        <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a>
+        <p>NyaySetu provides general legal information and facilitates consultation bookings. It is not a law firm, does not represent users in proceedings and does not guarantee outcomes.</p>
+        <p>Operated as a sole proprietorship by Prashant Keshav Khaire.<br>Udyam Registration: UDYAM-MH-26-0991801</p>
+      </div>
+      <div class="footer-col"><h3>Explore</h3><a href="#how-it-works">How it works</a><a href="#issues">Legal issues</a><a href="ask-an-advocate.html">Ask an advocate</a><a href="#consultation">Consultation</a><a href="#faq">FAQ</a></div>
+      <div class="footer-col"><h3>Policies</h3><a href="privacy-policy.html">Privacy Policy</a><a href="terms-and-conditions.html">Terms of Service</a><a href="refund-policy.html">Refund Policy</a><a href="cancellation-policy.html">Cancellation Policy</a><a href="data-deletion.html">Data Deletion</a><a href="legal-disclaimer.html">Legal Disclaimer</a></div>
+      <div class="footer-col"><h3>Contact</h3><a href="mailto:legalhelp@nyaysetu.in">legalhelp@nyaysetu.in</a><a href="tel:+917020030080">+91 70200 30080</a><span>Pimpri-Chinchwad, Pune, Maharashtra 412105, India</span><a href="https://wa.me/917020030080" target="_blank" rel="noopener">WhatsApp support</a></div>
+    </div>
+    <div class="footer-bottom container"><span>© <span data-year>2026</span> NyaySetu. All rights reserved.</span><span>General information only • Not emergency assistance • No outcome guarantee</span></div>
+  </footer>
 
-<footer>
-© 2026 NyaySetu. All Rights Reserved.<br><br>
-<a href="privacy-policy.html">Privacy Policy</a> |
-<a href="terms-and-conditions.html">Terms & Conditions</a> |
-<a href="refund-policy.html">Refund Policy</a> |
-<a href="data-deletion.html">Data Deletion Policy</a>
-
-<div class="footer-note">
-NyaySetu operates with a commitment to transparency, confidentiality, and structured legal access for its users.
-</div>
-</footer>
-
-<a class="float-wa" href="https://wa.me/917020030080?text=Hi" target="_blank">
-<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" viewBox="0 0 24 24">
-<path d="M20.52 3.48A11.87 11.87 0 0012 0C5.37 0 0 5.37 0 12a11.9 11.9 0 001.64 6L0 24l6.2-1.62A11.94 11.94 0 0012 24c6.63 0 12-5.37 12-12 0-3.19-1.24-6.19-3.48-8.52z"/>
-</svg>
-Start Legal Consultation
-</a>
-
+  <a class="floating-whatsapp" href="https://wa.me/917020030080?text=Hi%20NyaySetu%2C%20I%20need%20help." target="_blank" rel="noopener" aria-label="Ask NyaySetu on WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.6 9.6 0 0 1-4-.9L3 21l1.7-4.6A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.7 8.4c.3 2.7 2.3 4.7 5 5"/></svg><span>Ask NyaySetu</span></a>
+  <script src="script.js" defer></script>
 </body>
 </html>
