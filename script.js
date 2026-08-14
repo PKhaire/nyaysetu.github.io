@@ -27,6 +27,25 @@
         menuButton.focus();
       }
     });
+
+    document.addEventListener('click', function (event) {
+      if (navLinks.classList.contains('open') && !navLinks.contains(event.target) && !menuButton.contains(event.target)) {
+        closeMenu();
+      }
+    });
+
+    window.addEventListener('resize', function () {
+      if (window.innerWidth > 760 && navLinks.classList.contains('open')) closeMenu();
+    });
+  }
+
+  const siteHeader = document.querySelector('.site-header');
+  if (siteHeader) {
+    const updateHeader = function () {
+      siteHeader.classList.toggle('scrolled', window.scrollY > 8);
+    };
+    window.addEventListener('scroll', updateHeader, { passive: true });
+    updateHeader();
   }
 
   document.querySelectorAll('.faq-question').forEach(function (button) {
@@ -73,7 +92,7 @@
         'I understand this is NyaySetu intake, not emergency assistance or a confirmed advocate-client relationship. Please share availability, scope, professional details and price before any booking.'
       ].join('\n');
 
-      if (status) status.textContent = 'Opening WhatsApp. Review the message before you send it.';
+      if (status) status.textContent = 'Opening a WhatsApp draft. Review it, then press Send in WhatsApp.';
       const destination = 'https://wa.me/917020030080?text=' + encodeURIComponent(message);
       window.location.assign(destination);
     });

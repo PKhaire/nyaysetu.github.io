@@ -23,7 +23,7 @@
   <a class="skip-link" href="#content">Skip to main content</a>
   <header class="site-header">
     <nav class="nav container" aria-label="Primary navigation">
-      <a class="brand" href="index.html" aria-label="NyaySetu home"><span class="brand-mark">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a>
+      <a class="brand" href="index.html" aria-label="NyaySetu home"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a>
       <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-menu"><span></span></button>
       <div class="nav-links" id="site-menu">
         <a href="index.html#how-it-works">How it works</a>
@@ -103,14 +103,19 @@
 
           <div class="form-field">
             <label for="question-summary">Question summary</label>
-            <textarea id="question-summary" name="summary" rows="7" maxlength="600" required aria-describedby="summary-help summary-count" placeholder="Example: My employer has not paid two months of salary. I have an offer letter and bank statements. What should I preserve and what is the usual first formal step?"></textarea>
+            <textarea id="question-summary" name="summary" rows="7" minlength="30" maxlength="600" required aria-describedby="summary-help summary-count" placeholder="Example: My employer has not paid two months of salary. I have an offer letter and bank statements. What should I preserve and what is the usual first formal step?"></textarea>
             <div class="field-meta"><span id="summary-help">Do not paste evidence or identification numbers.</span><span id="summary-count" aria-live="polite">0/600</span></div>
           </div>
 
           <label class="consent-check"><input type="checkbox" name="understanding" required><span>I understand that this goes to NyaySetu intake through WhatsApp, not directly to a guaranteed advocate; it is not emergency assistance and no relationship, booking or outcome is promised.</span></label>
 
-          <button class="button button-primary form-submit" type="submit">Review and continue in WhatsApp</button>
-          <p class="form-privacy">WhatsApp is a Meta service. Your message is sent only after you review and press Send in WhatsApp. See the <a href="privacy-policy.html">Privacy Policy</a> and <a href="legal-disclaimer.html">Legal Disclaimer</a>.</p>
+          <button class="button button-primary form-submit" type="submit">Create my WhatsApp draft</button>
+          <ol class="whatsapp-handoff" aria-label="What happens after selecting the button">
+            <li><span>1</span>WhatsApp opens</li>
+            <li><span>2</span>You review the draft</li>
+            <li><span>3</span>You press Send</li>
+          </ol>
+          <p class="form-privacy"><strong>The draft is not sent automatically.</strong> WhatsApp is a Meta service. See the <a href="privacy-policy.html">Privacy Policy</a> and <a href="legal-disclaimer.html">Legal Disclaimer</a>.</p>
           <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
       </div>
@@ -130,7 +135,7 @@
 
   <footer class="site-footer">
     <div class="footer-grid container">
-      <div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a><p>General legal information and consultation coordination. NyaySetu is not a law firm and does not guarantee an advocate, response time or legal outcome.</p></div>
+      <div class="footer-brand"><a class="brand" href="index.html" aria-label="NyaySetu home"><span class="brand-mark" aria-hidden="true">N</span><span class="brand-copy">NyaySetu<small>The Bridge to Justice</small></span></a><p>General legal information and consultation coordination. NyaySetu is not a law firm and does not guarantee an advocate, response time or legal outcome.</p></div>
       <div class="footer-col"><h3>Explore</h3><a href="index.html">Home</a><a href="index.html#issues">Legal issues</a><a href="index.html#consultation">Consultation</a><a href="index.html#faq">FAQ</a></div>
       <div class="footer-col"><h3>Policies</h3><a href="privacy-policy.html">Privacy Policy</a><a href="terms-and-conditions.html">Terms of Service</a><a href="refund-policy.html">Refund Policy</a><a href="cancellation-policy.html">Cancellation Policy</a><a href="legal-disclaimer.html">Legal Disclaimer</a></div>
       <div class="footer-col"><h3>Contact</h3><a href="mailto:legalhelp@nyaysetu.in">legalhelp@nyaysetu.in</a><a href="tel:+917020030080">+91 70200 30080</a></div>
